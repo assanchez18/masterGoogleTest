@@ -45,9 +45,14 @@
     <IncludePath>C:\Users\enassre\source\repos\ProyectoParaTest\ProyectoParaTest;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemGroup>
+    <ClInclude Include="ComplexFixture.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CalculadoraTest.cpp" />
+    <ClCompile Include="CompexEjercicio5.cpp" />
+    <ClCompile Include="ComplexEjercicio4_test.cpp" />
+    <ClCompile Include="ComplexNumberTest.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

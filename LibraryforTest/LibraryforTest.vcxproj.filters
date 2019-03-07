@@ -13,15 +13,33 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\calculadora">
+      <UniqueIdentifier>{878e8e05-5333-4dd1-a25e-562d3d2abc08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\complexNumber">
+      <UniqueIdentifier>{c470844f-60b9-4398-91a0-b2021ef24c59}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Calculadora.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\calculadora</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\testingRepo\testing-cpp\2_Test_Ejer1_ComplexNumber\Complex.cpp">
+      <Filter>Source Files\complexNumber</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\testingRepo\testing-cpp\2_Test_Ejer1_ComplexNumber\Complex_test.cpp">
+      <Filter>Source Files\complexNumber</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\testingRepo\testing-cpp\2_Test_Ejer2_ComplexNumber\ComplexFixture_test.cpp">
+      <Filter>Source Files\complexNumber</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\testingRepo\testing-cpp\2_Test_Ejer1_ComplexNumber\Complex.h">
+      <Filter>Source Files\complexNumber</Filter>
+    </ClInclude>
     <ClInclude Include="Calculadora.h">
-      <Filter>Header Files</Filter>
+      <Filter>Source Files\calculadora</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
